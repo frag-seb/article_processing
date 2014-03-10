@@ -21,8 +21,8 @@ if($is_writeable==false){
 } 
 
 if($error != '')
-		$REX['ADDON']['installmsg'][$mypage] = $error;
-	else
-		$REX['ADDON']['install'][$mypage] = 1;
+	$REX['ADDON']['installmsg'][$mypage] = $error;
+else
+	$REX['ADDON']['install'][$mypage] = 1;
 
 ?>

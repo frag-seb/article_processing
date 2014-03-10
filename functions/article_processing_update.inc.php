@@ -7,21 +7,21 @@
  */	
 function article_processing_update($addon_v, $addonkey)
 {
-  $ch = curl_init();
-  curl_setopt_array($ch, array(
-    CURLOPT_HTTPHEADER      => array('Content-type: application/json'),
-    CURLOPT_RETURNTRANSFER  => true,
-    CURLOPT_URL             => 'http://www.redaxo.org/de/_system/_webservice/addons/?v='.$addon_v.'&addonkey='.$addonkey.''
-  ));
-  $res = curl_exec($ch);
-  curl_close($ch);
+	$ch = curl_init();
+	curl_setopt_array($ch, array(
+		CURLOPT_HTTPHEADER      => array('Content-type: application/json'),
+		CURLOPT_RETURNTRANSFER  => true,
+		CURLOPT_URL             => 'http://www.redaxo.org/de/_system/_webservice/addons/?v='.$addon_v.'&addonkey='.$addonkey.''
+  	));
+	$res = curl_exec($ch);
+	curl_close($ch);
  
-  if( $res )
-  {
-    $json = json_decode($res,true);
-    return $json[0];
-  }
-  return false;
+	if( $res )
+	{
+		$json = json_decode($res,true);
+		return $json[0];
+	}
+	return false;
 }
 
 
@@ -51,8 +51,6 @@ function ap_update_check($addon_v, $addonkey, $version)
 				break;
 			}
 		}
-		
-		
 	}else
 	{
 		return FALSE;
@@ -61,7 +59,4 @@ function ap_update_check($addon_v, $addonkey, $version)
 	if($version < $version_new){
 		echo rex_info(''.$I18N_ARTICLE_EDIT->Msg('a7881_update_version').' <a href="'.$version_url.'" title="'.$addon_shortdescription.'">'.$version_name.' '.$version_new.'</a>');
 	}
-
 }
-
-?>
