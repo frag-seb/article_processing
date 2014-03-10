@@ -1,0 +1,50 @@
+# addon: article_processing de_de
+
+a7881_title = Artikel Bearbeitung
+a7881_head_1 = Konfiguration
+a7881_head_2 = Info
+a7881_head_3 = Update
+
+a7881_subheader_cfg1 = Weitere Einstellungen
+a7881_subheader_cfg2 = Aktivierung
+a7881_subheader_cfg3 = Bild Information
+a7881_subheader_cfg4 = DIV Position
+
+a7881_script_status = Seitenstatus EIN/AUS:
+a7881_back_image = Bilder zur&uuml;cksetzen:
+a7881_image_1 = Bild Bearbeiten Einf&uuml;gen:
+a7881_image_2 = Bild Metadaten Einf&uuml;gen:
+a7881_image_3 = Bild Abmelden Einf&uuml;gen
+a7881_image_4 = Bild Artikel Offline
+
+a7881_image_1_a_title = Medium ausw&auml;hlen
+a7881_image_1_img_title = &Ouml;ffne Strukturbaum
+a7881_image_2_a_title = Ausgewähltes Medium l&ouml;schen
+a7881_image_2_img_title = Auswahl entfernen
+
+
+a7881_image_width = Bild width:
+
+a7881_p_top = Top:
+a7881_p_bottom = Bottom:
+a7881_p_left = Left:
+a7881_p_right = Right:
+
+a7881_m_top = margin Top:
+a7881_m_bottom = margin Bottom:
+a7881_m_left = margin Left:
+a7881_m_right = margin Right:
+a7881_z_index = Z-Index:
+a7881_position = Position:
+
+a7881_save = Speichern
+a7881_unit = % / px
+a7881_edit = Bearbeiten
+a7881_meta = Metadaten
+a7881_status = Status &auml;ndern
+a7881_logout = Abmelden
+
+a7881_settings_saved = Die Einstellungen wurden gespeichert!
+a7881_error = <br>Die Datei ist nicht beschreibbar!<br>
+
+a7881_update_version = Eine neue Version ist als Download verf&uuml;gbar:
