@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-#article_processing .ap_button ul{ }
-#article_processing .ap_button li{ float: left; list-style: none; }
+div#article_processing { position: relative; float:left; display:block; width:100%; }
+#article_processing a { display:inline-block; color: #ddd; border: 1px solid #666; padding: 2px;}
+#article_processing a:hover { display:inline-block; color: #fff; border: 1px solid #777; background: #666; }
+#article_processing .ap_button {float: right; display:block; background: #555; width: 100%; padding:5px; }
+#article_processing .ap_button li{ float: right; list-style: none; margin:0 10px;}
+#article_processing .ap_button li.a7881_status{ display: none; }
+#article_processing .ap_button li.a7881_meta{ display: none; }
