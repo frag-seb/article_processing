@@ -8,10 +8,14 @@
  	$thissubpage				=	"settings";
 	$baseURL					=	"index.php?page=".$mypage."&amp;subpage=".$thissubpage;
 	$article_processingIniFile	=	$REX['INCLUDE_PATH'] . "/addons/" . $mypage . "/" . $mypage . ".ini";
-	$norm_img['a7881_edit']		=	"addons/" . $mypage . "/bearbeiten.png";
-	$norm_img['a7881_meta']		=	"addons/" . $mypage . "/metadaten.png";
-	$norm_img['a7881_status']	=	"addons/" . $mypage . "/status.png";
-	$norm_img['a7881_logout']	=	"addons/" . $mypage . "/abmelden.png";
+#	$norm_img['a7881_edit']		=	"addons/" . $mypage . "/bearbeiten.png";
+#	$norm_img['a7881_meta']		=	"addons/" . $mypage . "/metadaten.png";
+#	$norm_img['a7881_status']	=	"addons/" . $mypage . "/status.png";
+#	$norm_img['a7881_logout']	=	"addons/" . $mypage . "/abmelden.png";
+	$norm_img['a7881_edit']		=	"";
+	$norm_img['a7881_meta']		=	"";
+	$norm_img['a7881_status']	=	"";
+	$norm_img['a7881_logout']	=	"";
 	$post						=	rex_request('value',	'array');
 	$norm 						=	$post['images']['norm'];
 	
@@ -53,6 +57,13 @@
         <input type="hidden" name="subpage" value="<?php echo $thissubpage; ?>" />
         <input type="hidden" name="func" value="save" />
         <div class="rex-form-wrapper">
+          <div class="rex-form-row">
+            <p class="rex-form-text">
+              <label for="frontend_on"><b><?php echo $I18N_ARTICLE_EDIT->Msg('a7881_rights_meta'); ?></b></label>
+              <input name="value[system][rights_meta]" type="hidden" value="0"  />
+              <input name="value[system][rights_meta]" type="checkbox" value="1"  <?php echo ($set['frontend'] == 0) ? "" : "checked='checked'"; ?>/>            <hr />
+            </p>
+          </div>
           <div class="rex-form-row">
             <p class="rex-form-text">
               <label for="frontend_on"><b><?php echo $I18N_ARTICLE_EDIT->Msg('a7881_subheader_cfg2'); ?></b></label>

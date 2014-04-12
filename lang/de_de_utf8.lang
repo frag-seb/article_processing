@@ -19,7 +19,7 @@ a7881_image_4 = Bild Artikel Offline
 
 a7881_image_1_a_title = Medium ausw&auml;hlen
 a7881_image_1_img_title = &Ouml;ffne Strukturbaum
-a7881_image_2_a_title = Ausgewähltes Medium l&ouml;schen
+a7881_image_2_a_title = Ausgewï¿½hltes Medium l&ouml;schen
 a7881_image_2_img_title = Auswahl entfernen
 
 
@@ -39,10 +39,10 @@ a7881_position = Position:
 
 a7881_save = Speichern
 a7881_unit = % / px
-a7881_edit = Bearbeiten
+a7881_edit = Diesen Artikel bearbeiten
 a7881_meta = Metadaten
 a7881_status = Status &auml;ndern
-a7881_logout = Abmelden
+a7881_logout = Ausloggen
 
 a7881_settings_saved = Die Einstellungen wurden gespeichert!
 a7881_error = <br>Die Datei ist nicht beschreibbar!<br>
