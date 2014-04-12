@@ -17,7 +17,7 @@
 	$clang_id		=	$REX['ARTICLE']->getValue('clang');
 				
 	$cat			=	OOCategory::getCategoryById($cat_id);
-	$cat_re_id		=	$cat->getParentId();
+	if (is_object($cat)) $cat_re_id		=	$cat->getParentId();
 		
 	$url = "";
 	switch ($name) 
